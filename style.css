@@ -222,6 +222,11 @@ footer {
     flex-direction: column;
     height: 162px;
   }
+  
+  .header_transform {
+    transform: translateY(-162px);
+  }
+
   .logo {
     margin-top: 24px;
   }
