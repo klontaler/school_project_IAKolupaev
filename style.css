@@ -254,6 +254,10 @@ footer {
 }
 
 @media only screen and (max-width: 433px) {
+  .document {
+    width: 36px;
+    height: 36px;
+  }
   #main_container {
     width: 92%;
   }
