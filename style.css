@@ -220,7 +220,7 @@ footer {
 @media only screen and (max-width: 768px) {
   #header {
     flex-direction: column;
-    height: 162px;
+    height: 124px;
   }
   
   .header_transform {
@@ -228,13 +228,13 @@ footer {
   }
 
   .logo {
-    margin-top: 24px;
+    margin-top: 18px;
   }
   .document {
     width: 48px;
     height: 48px;
     position: static;
-    margin-bottom: 24px;
+    margin-bottom: 18px;
   }
 
   .big_text {
