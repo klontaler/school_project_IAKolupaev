@@ -15,13 +15,16 @@ a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-size: inherit;
-  background-color: rgba(255, 28, 28, 0.2);
   padding: 0 6px 4px;
   border-radius: 5px;
 }
 
 li {
   list-style: none;
+}
+
+.displayNone {
+  display: none;
 }
 /* global elements */
 
@@ -128,9 +131,9 @@ main {
   margin: 16px auto;
 }
 
-.table_of_contest_item:hover {
+/* .table_of_contest_item:hover {
   background: rgba(0, 34, 92, 0.85);
-}
+} */
 
 .margin_after {
   margin-bottom: 68px;
@@ -144,6 +147,10 @@ main {
 .contest_body {
   font-size: 24px;
   font-weight: 600;
+}
+
+a.contest_body:hover {
+  color: rgb(255, 117, 117);
 }
 
 .contest_title, .contest_body {
@@ -204,6 +211,31 @@ footer {
   padding: 6px 8px;
   border-radius: 6px;
 }
+
+/* modal */
+/* #modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.modalOpen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container#modalContainer {
+  margin: auto;
+  width: 60%;
+  height: 60%;
+  background: rgb(0, 34, 92);
+} */
 
 @media only screen and (max-width: 960px) {
   #main_footer_container {
