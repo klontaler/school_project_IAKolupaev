@@ -150,13 +150,14 @@ main {
   font-weight: 600;
 }
 
+.contest_title, .contest_body {
+  color: rgb(241, 255, 244);
+}
+
 a.contest_body:hover {
   color: rgb(255, 117, 117);
 }
 
-.contest_title, .contest_body {
-  color: rgb(241, 255, 244);
-}
 
 /* footer */
 
