@@ -76,19 +76,45 @@ header {
   color: rgb(241, 255, 244);
 }
 
-.document {
-  height: 64px;
-  width: 64px;
-
-  background-image: url(./assets/img/pdficon.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: unset;
-  opacity: .8;
-
+.headLink {
+  width: 310px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
   position: absolute;
-  top: 16px;
   right: 64px;
+  color: rgb(241, 255, 244);
+  padding: 5px;
+  border-radius: 9px;
+  border: 2px solid rgb(255, 78, 78);
+  opacity: .8;
+}
+
+.headLink:hover {
+  color: rgb(241, 255, 244);
+  border-radius: 14px;
+  border: 2px solid rgb(255, 28, 28);
+  opacity: 1;
+}
+
+.mainLink {
+  display: none;
+  width: 280px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 9px;
+  color: rgb(245, 245, 245);
+  background-color: rgba(24, 69, 148, 0.767);
+  margin: 128px auto -72px;
+}
+  
+.mainLink:hover {
+  border-radius: 14px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(24, 69, 148, 0.904);
+  opacity: 1;
 }
 
 .document:hover {
@@ -198,7 +224,7 @@ footer {
 }
 
 #github_link {
-  color: rgb(217,231,255);
+  color: rgb(231, 240, 255);
   background-color: rgb(255, 78, 78);
 }
 
@@ -223,6 +249,15 @@ footer {
   .footer_item, #license {
     width: 68%;
   }
+
+  .headLink {
+    display: none;
+  }
+
+  .mainLink {
+    display: block;
+  }
+
 
 }
 
